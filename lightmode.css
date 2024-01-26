@@ -9,6 +9,17 @@
 	}
 }
 
+@keyframes transitionin2 {
+	from {
+		color: white;
+		background-color: black;
+	}
+	to {
+		color: black;
+		background-color: white;
+	}
+}
+
 body {
 	background-color: white;
 	color: black;

@@ -1,4 +1,17 @@
+@keyframes transitionin {
+	from {
+		color: white;
+		background-color: black;
+	}
+	to {
+		color: black;
+		background-color: white;
+	}
+}
+
 body {
-	color: black;
 	background-color: white;
+	color: black;
+	animation-name: transitionin;
+	animation-duration: 1s;
 }

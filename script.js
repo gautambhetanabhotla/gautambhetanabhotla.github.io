@@ -2,16 +2,18 @@ var button = document.getElementById('dlmodetoggle');
 var stylesheet = document.getElementById('STYLE');
 
 function reanimate() {
-	if(document.getElementsByTagName('body').style.animation == "transitionin") {
-		document.getElementsByTagName('body').style.animation = "transitionin2";
+	if (document.getElementsByTagName('body').style.animationName == 'transitionin') {
+		document.getElementById('scriptchecker').innerHTML = 'script worked';
+		document.getElementsByTagName('body').style.animationName = 'transitionin2';
 	}
 	else {
-		document.getElementsByTagName('body').style.animation = "transitionin";
+		document.getElementById('scriptchecker').innerHTML = 'script worked';
+		document.getElementsByTagName('body').style.animationName = 'transitionin';
 	}
 }
 
 function toggleDLmode() {
-	if(stylesheet.getAttribute('href') == 'lightmode.css') {
+	if (stylesheet.getAttribute('href') == 'lightmode.css') {
 		stylesheet.setAttribute('href', 'darkmode.css');
 		reanimate();
 	}
@@ -21,6 +23,6 @@ function toggleDLmode() {
 	}
 }
 
-button.onclick = function() {
+button.onclick = function () {
 	toggleDLmode();
 }

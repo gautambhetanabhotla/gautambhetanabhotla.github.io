@@ -20,9 +20,18 @@
 	}
 }
 
+@keyframes transitioninDark {
+	from {
+		color: white;
+		background-color: black;
+	}
+	to {
+		color: black;
+		background-color: white;
+	}
+}
+
 body {
-	background-color: white;
-	color: black;
-	animation-name: transitionin;
+	animation-name: transitioninLight;
 	animation-duration: 1s;
 }

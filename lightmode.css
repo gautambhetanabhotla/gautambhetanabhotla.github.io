@@ -1,26 +1,4 @@
-@keyframes transitionin {
-	from {
-		color: white;
-		background-color: black;
-	}
-	to {
-		color: black;
-		background-color: white;
-	}
-}
-
-@keyframes transitionin2 {
-	from {
-		color: white;
-		background-color: black;
-	}
-	to {
-		color: black;
-		background-color: white;
-	}
-}
-
-@keyframes transitioninDark {
+@keyframes transitioninLight {
 	from {
 		color: white;
 		background-color: black;
@@ -34,4 +12,6 @@
 body {
 	animation-name: transitioninLight;
 	animation-duration: 1s;
+	color: black;
+	background-color: white;
 }

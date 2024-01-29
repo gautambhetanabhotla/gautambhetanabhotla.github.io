@@ -14,3 +14,11 @@ function toggleDLmode() {
 button.onclick = function () {
 	toggleDLmode();
 }
+
+function nav_a_animate() {
+	document.querySelector('nav\ a').classList.add('nav_a_animation');
+}
+
+document.querySelector('nav\ a').onhover = function() {
+	nav_a_animate();
+}

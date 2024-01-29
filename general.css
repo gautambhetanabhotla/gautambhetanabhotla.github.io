@@ -21,16 +21,13 @@
 	animation-duration: 0.5s;
 }
 
-body {
-	font-family: josefin_sansthin, Helvetica, Proxima Nova, Poppins, Lato, Nunito, Gabarito, Roboto, sans-serif;
-}
-
 nav {
 	align-items: center;
 	text-align: left;
 	font-size: 20px;
 	padding-top: 12px;
 	padding-left: 13px;
+	font-family: josefin_sansthin;
 }
 
 nav a {
@@ -59,4 +56,16 @@ a {
 
 #dlmodetoggle {
 	margin-top: 60px;
+}
+
+h1 {
+	font-family: josefin_sansthin;
+}
+
+p {
+	font-family: Helvetica;
+}
+
+.content-divs p {
+	font-family: 'poppinsitalic';
 }

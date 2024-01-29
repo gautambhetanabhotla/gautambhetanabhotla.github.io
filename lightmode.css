@@ -1,4 +1,4 @@
-@keyframes transitioninLight {
+@keyframes transitioninLightBody {
 	from {
 		color: white;
 		background-color: black;
@@ -10,8 +10,15 @@
 }
 
 body {
-	animation-name: transitioninLight;
+	animation-name: transitioninLightBody;
 	animation-duration: 0.5s;
 	color: black;
 	background-color: white;
+}
+
+.contentdivs {
+	background-color: rgb(6, 184, 0);
+	padding: 15px;
+	padding-top: 5px;
+	border-radius: 10px;
 }

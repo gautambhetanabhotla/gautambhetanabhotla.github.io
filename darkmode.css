@@ -1,4 +1,4 @@
-@keyframes transitioninDark {
+@keyframes transitioninDarkBody {
 	from {
 		color: black;
 		background-color: white;
@@ -10,8 +10,15 @@
 }
 
 body {
-	animation-name: transitioninDark;
+	animation-name: transitioninDarkBody;
 	animation-duration: 0.5s;
 	color: white;
 	background-color: black;
+}
+
+.contentdivs {
+	background-color: rgb(5, 154, 0);
+	padding: 15px;
+	padding-top: 5px;
+	border-radius: 10px;
 }

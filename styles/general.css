@@ -22,10 +22,11 @@
 }
 
 nav {
+	display: flex;
 	align-items: center;
 	text-align: left;
 	font-size: 20px;
-	padding-top: 12px;
+	padding-top: 8px;
 	padding-left: 13px;
 	font-family: josefin_sansthin;
 	
@@ -34,18 +35,20 @@ nav {
 nav a {
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-top: 8px;
+	padding-top: 0px;
 	padding-bottom: 5px;
 	border-radius: 8px;
 }
 
 #navbardiv {
+	display: flex;
+	align-items: baseline;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 40px;
-	z-index: 100;
+	z-index: 2;
 	margin-bottom: 50px;
 }
 
@@ -75,9 +78,9 @@ div p {
 }
 
 #dlmodetoggle {
-	width: 2%;
+	width: 7%;
 	align-self: right;
-	margin-top: 5px;
+	margin-top: 0px;
 	border-radius: 5px;
 }
 
@@ -93,4 +96,18 @@ nav a b {
 	border-radius: 10px;
 	margin: auto;
 	margin-top: 20px;
+}
+
+table {
+	font-family: 'poppinslight';
+}
+
+tr, td {
+	padding: 15px;
+	margin: 5px;
+	border-radius: 0px;
+}
+
+div ul {
+	font-family: 'poppinslight';
 }

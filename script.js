@@ -3,11 +3,11 @@ var stylesheet = document.getElementById('STYLE');
 var BODY2 = document.querySelector('body');
 
 function toggleDLmode() {
-	if(stylesheet.getAttribute('href') == 'lightmode.css') {
-		stylesheet.setAttribute('href', 'darkmode.css');
+	if(stylesheet.getAttribute('href') == 'styles/lightmode.css') {
+		stylesheet.setAttribute('href', 'styles/darkmode.css');
 	}
 	else {
-		stylesheet.setAttribute('href', 'lightmode.css');
+		stylesheet.setAttribute('href', 'styles/lightmode.css');
 	}
 }
 

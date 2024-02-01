@@ -42,12 +42,11 @@ nav a {
 
 #navbardiv {
 	display: flex;
-	align-items: baseline;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 40px;
+	height: min(60px, 20%);
 	z-index: 2;
 	margin-bottom: 50px;
 }
@@ -71,9 +70,10 @@ div p {
 }
 
 #pfp {
-	width: 15%;
-	text-align: right;
+	width: min(35%, 300px);
+	height: min(35%, 300px);
 	border-radius: 10px;
+	margin-left: 30px;
 }
 
 #dlmodetoggle {
@@ -89,12 +89,20 @@ nav a b {
 }
 
 .contentdivs {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
 	width: 95%;
 	padding: 15px;
 	padding-top: 5px;
 	border-radius: 10px;
 	margin: auto;
 	margin-top: 20px;
+}
+
+#about {
+	margin-top: 80px;
+	flex-direction: row;
 }
 
 table {

@@ -16,6 +16,10 @@
 	}
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .nav_a_animation {
 	animation-name: navbuttonanimation;
 	animation-duration: 0.5s;

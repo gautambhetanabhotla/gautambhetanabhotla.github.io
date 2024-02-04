@@ -44,7 +44,7 @@ nav a {
 	border-radius: 8px;
 }
 
-#navbardiv {
+.navbardiv {
 	display: flex;
 	position: fixed;
 	top: 0;
@@ -87,6 +87,14 @@ div p {
 	border-radius: 5px;
 }
 
+#dlmodetoggleBLOG {
+	width: 7%;
+	align-self: right;
+	margin-top: -6px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
 nav a b {
 	margin-top: -5px;
 	padding-top: -5px;
@@ -126,4 +134,20 @@ div ul {
 .socials {
 	width: 50px;
 	margin: 20px;
+}
+
+.blogdiv {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 95%;
+	padding: 15px;
+	padding-top: 5px;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.blogdiv h1 {
+	font-family: josefin_sansthin;
 }

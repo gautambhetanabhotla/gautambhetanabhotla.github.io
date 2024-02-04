@@ -25,7 +25,6 @@
 	to {
 		filter: invert(0);
 	}
-
 }
 
 body {
@@ -33,7 +32,7 @@ body {
 	animation-duration: 1s;
 }
 
-a{
+a {
 	color: black;
 }
 
@@ -43,7 +42,7 @@ a{
 	background-color: rgb(0, 255, 0);
 }
 
-#navbardiv {
+.navbardiv {
 	animation-name: coloring;
 	animation-duration: 1s;
 	background-color:rgb(0, 255, 0);

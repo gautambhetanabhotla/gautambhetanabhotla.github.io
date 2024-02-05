@@ -1,0 +1,30 @@
+@keyframes animat {
+    from {
+        filter: invert(0);
+    }
+    to {
+        filter: invert(1);
+    }
+}
+
+@keyframes animat2 {
+    from {
+        filter: invert(1);
+    }
+    to {
+        filter: invert(0);
+    }
+}
+
+.hovered {
+    animation-name: animat;
+    animation-duration: 0.5s;
+}
+
+#blog1link {
+    animation: animat2 0.5s;
+}
+
+#blog2link {
+    animation: animat2 0.5s;
+}

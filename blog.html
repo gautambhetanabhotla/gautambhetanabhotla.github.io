@@ -4,14 +4,23 @@
         <link rel = "stylesheet" href = "/fonts/josefin/fonts.css">
         <link rel = "stylesheet" href = "/fonts/poppins/stylesheet.css">
         <link rel = "stylesheet" href = "/styles/general.css">
-        <link rel = "stylesheet" href = "/styles/darkmodeblog.css" id = "BLOGSTYLE">
+        <link rel = "stylesheet" href = "/styles/blogstuff.css">
+        <link rel = "stylesheet" href = "/styles/darkmodeblog.css" id = "blogstylesheet">
         <title>Blog</title>
     </head>
     <body>
-        <button id = "dlmodetoggleBLOG">CLOCK ME</button>
-        <div class = "blogdiv">
-            <h1>BLOG RA SAMBA</h1>
+        <div class = "navbardiv">
+            <nav>
+                <a href = "/index.html"><b>HOME</b></a>
+                <img src = "/images/moon.jpg" id = "dlmodetoggleBLOG">
+            </nav>
         </div>
-        <script type = "module" src = "/scripts/blogscript.js"></script>
+        <center style = "margin-top: 10%">
+            <div style = "display: float; flex-direction: row; width: 90%">
+                    <a href = "/blogs/blog1.html"><div class = "blogdiv" style = "width: 80%" id = "blog1link"><b><h1>BLOG 1</h1></b></div></a>
+                    <a href = "/blogs/blog2.html"><div class = "blogdiv" style = "width: 80%;" id = "blog2link"><b><h1>BLOG 2</h1></b></div></a>
+            </div>
+        </center>
+        <script src = "/scripts/bloghomescript.js"></script>
     </body>
 </html>

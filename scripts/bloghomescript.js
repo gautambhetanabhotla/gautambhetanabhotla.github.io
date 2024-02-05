@@ -16,11 +16,11 @@ b1l.addEventListener('mouseover', b1lll);
 b2l.addEventListener('mouseover', b2lll);
 
 function toggleDLmodeBLOG() {
-	if(blogstylesheet.getAttribute('href') == '/styles/lightmodeblog.css') {
-		blogstylesheet.setAttribute('href', '/styles/darkmodeblog.css');
+	if(blogstylesheet.getAttribute('href') == 'styles/lightmodeblog.css') {
+		blogstylesheet.setAttribute('href', 'styles/darkmodeblog.css');
 	}
 	else {
-		blogstylesheet.setAttribute('href', '/styles/lightmodeblog.css');
+		blogstylesheet.setAttribute('href', 'styles/lightmodeblog.css');
 	}
 }
 

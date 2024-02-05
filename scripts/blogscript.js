@@ -15,11 +15,11 @@ function like() {
 }
 
 function toggleDLmodeBLOG() {
-	if(blogstylesheet.getAttribute('href') == '/styles/lightmodeblog.css') {
-		blogstylesheet.setAttribute('href', '/styles/darkmodeblog.css');
+	if(blogstylesheet.getAttribute('href') == '../styles/lightmodeblog.css') {
+		blogstylesheet.setAttribute('href', '../styles/darkmodeblog.css');
 	}
 	else {
-		blogstylesheet.setAttribute('href', '/styles/lightmodeblog.css');
+		blogstylesheet.setAttribute('href', '../styles/lightmodeblog.css');
 	}
 }
 
